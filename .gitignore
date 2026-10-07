@@ -1,0 +1,23 @@
+# Raw workload data and all hourly carbon inputs are prepared locally.
+# Annual model parameters in dataset/Factors.py remain part of this release.
+/dataset/EM-CPNDCNZ
+/dataset/EM-IEA26_30
+/dataset/cluster-trace-gpu-v2026
+
+# Local figure materials, provenance audits and supplementary documentation.
+# The root README contains the instructions for the runtime-only release.
+/Origin_Figure_Data/
+/scripts/README.md
+/scripts/model_sensitivity/README.md
+
+# Historical result-merging utilities and standalone development tests.
+/scripts/result_processing/
+/scripts/model_sensitivity/test_parameter_contracts.py
+
+# Locally generated experiment outputs and Python environment.
+/results/
+/.venv/
+
+# Python runtime caches.
+__pycache__/
+*.py[cod]

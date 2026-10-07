@@ -1,0 +1,5 @@
+# Numerical experiments only; these are not the historical environment lock.
+numpy
+pandas
+scipy
+pyarrow
